@@ -1,0 +1,115 @@
+body{
+	/**background-color: rgb(100,200,50);*/
+	background-color: rgb(224, 224, 209);
+	font-family: sans-serif;
+}
+.cabecalho{
+	background-color: #00FFFF;
+	border: none 15px solid;
+	
+	padding-left: 50px;
+	margin-bottom: 10px;
+	box-shadow: black 0px 2px 5px;
+}
+
+.conteudo{
+	border: none 1px solid;
+	background-color: rgb(234, 234, 225);
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 2%;
+	box-shadow: black 1px 1px 4px;
+	border-radius: 2px;
+}
+
+a{
+	font-family: 'Lucinda sans','Lucinda Sans Regular';
+	color: blue;
+	text-decoration: unset;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.imgLoja{
+	width: 100%;
+	border-radius: 9px;
+	box-shadow: black 2px 2px 5px;
+
+}
+.tituloDestaque{
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	text-shadow: 1px 1px 5px;
+}
+
+/*.produtos img{
+	
+	border-radius: 15px;
+	width: 50px; 
+	height:30px;
+}*/
+.produtos{
+
+	display: flex;	
+	justify-content: space-between;
+
+}
+.produtoDestaque{
+
+	border: gray 1px solid;
+	margin-left: 1px;
+	margin-right: 1px;
+	box-shadow: gray 2px 2px 2px;
+	
+
+}
+.imgDestaque{
+	border-radius: 15px;
+	width: 50%;
+	
+
+}
+#descricao{
+	border: gray 1px solid;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email{
+	color: #8FBC8F;
+	
+	
+}
+.rodape{
+	display: flex;
+	justify-content: space-between;
+	border: #8FBC8F 1px solid;
+	box-shadow: black 1px 1px 3px;
+	background-color: #696969;
+	margin-bottom: 2px;
+	margin-top: 2px;
+
+
+	
+}
+.imgSocial{
+	
+	border-radius: 99px;
+	width: 30px;
+	height: 20px;
+
+	
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+}
+/**
+.redessociais{
+	display: flex;
+	justify-content: space-between;
+ 
+}
